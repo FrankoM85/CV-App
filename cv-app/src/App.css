@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  padding: 40px;
+  gap: 40px;
+}
+
+.tile {
+  flex-basis: 50%;
+  height: 100%;
+}
+
+.textDisplay {
+  height: 100%;
+  background-color: #555;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border: 1px solid #555;
+}
+
+.resetBtn {
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  appearance: none;
+  top: 0;
+  left: 0;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
